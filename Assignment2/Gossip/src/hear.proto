@@ -1,0 +1,11 @@
+option java_outer_classname = "HearGossipProto";
+
+message hearGossipRequest { 
+required string msg = 1; 
+required int32 clk = 2; 
+required int32 totalprocess =3; 
+required int32 IDofprocess =4; 
+required int32 serverno =5;
+required int32 EventGenerator =6;
+ 
+} 
